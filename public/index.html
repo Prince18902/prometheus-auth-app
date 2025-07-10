@@ -5,8 +5,15 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <title>Prometheus Auth Demo</title>
 </head>
-<body class="min-h-screen flex items-center justify-center bg-slate-100">
-  <div id="card" class="p-8 bg-white shadow rounded w-80"></div>
+<body class="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-violet-100">
+  <!-- NEW title bar -->
+  <h1 class="absolute top-6 text-2xl font-bold text-blue-700 drop-shadow">
+    Prometheus Auth Demo
+  </h1>
+
+  <!-- updated card class (just “card”, no inline Tailwind) -->
+  <div id="card" class="card"></div>
+
   <script src="app.js"></script>
 </body>
 </html>
